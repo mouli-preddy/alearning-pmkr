@@ -1,0 +1,19 @@
+{
+	"name": "ds_XML_file",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "learn-synapse-dev-WorkspaceDefaultStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Xml",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "US Police shootings in from 2015-22.xml",
+				"folderPath": "xml",
+				"fileSystem": "learnfs"
+			}
+		}
+	}
+}
